@@ -1,0 +1,8 @@
+
+services:
+  c-runner-app:
+    build: .
+    ports:
+      - "7789:8080"
+    volumes:
+      - ./codes:/app/codes
